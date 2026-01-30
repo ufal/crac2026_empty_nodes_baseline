@@ -1,0 +1,6 @@
+minnt>=1.0.0
+
+--extra-index-url=https://download.pytorch.org/whl/cu128
+torch>=2.7.0
+
+transformers>=4.52.0
