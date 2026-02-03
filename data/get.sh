@@ -20,7 +20,7 @@ unzip unc-gold-minidev.zip
 )
 
 for tb in ca_ancora cs_pcedt cs_pdt cs_pdtsc cu_proiel es_ancora grc_proiel hu_korkor hu_szegedkoref pl_pcc tr_itcc; do
-  udapy -s corefud.SingleParent <original_data/$tb-corefud-train.conllu > $tb-corefud-train.conllu
+  udapy -s corefud.SingleParent <original_data/$tb-corefud-train.conllu >$tb-corefud-train.conllu
   mv original_data/$tb-corefud-minidev.conllu .
 done
 
